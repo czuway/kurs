@@ -1,43 +1,58 @@
 DZIENNIK PRAKTYK ZAWODOWYCH
 Technik Programista – Klasa III
-Rok szkolny 2025/2026
+Rok szkolny 2026
 Dzień 1 – 02.03.2026 (poniedziałek)
 Godziny pracy: 8:00 – 15:00 (7 godzin)
 Przebieg dnia:
 
-8:00 – 8:45
-Przygotowałem i zorganizowałem stanowisko pracy zdalnej zgodnie z zasadami BHP i ergonomii. Ustawiłem monitor na wysokości oczu (odległość ok. 50–70 cm), dostosowałem wysokość krzesła i biurka, zapewniłem prawidłowe oświetlenie oraz zaplanowałem przerwy 5–10-minutowe co godzinę (zasada 20-20-20 dla oczu). Zapoznałem się z przepisami bezpieczeństwa podczas pracy zdalnej (ochrona wzroku, prawidłowa postawa, bezpieczeństwo sprzętu elektrycznego i cyberhigiena).
-8:45 – 10:00
-Otrzymałem wprowadzenie do działalności firmy oraz jej struktury organizacyjnej. Poznałem zakres świadczonych usług informatycznych i miejsce działu IT w organizacji.
-10:00 – 11:30
-Szczegółowe omówienie projektu, który będę realizował podczas praktyk – stworzenie inteligentnej boi morskiej (oceanograficznej). Boja ma zbierać i przetwarzać dane środowiskowe m.in. wysokość fal, prędkość i kierunek wiatru oraz inne parametry. Omówiono główne wymagania funkcjonalne i niefunkcjonalne projektu.
-11:30 – 12:15
-Przerwa obiadowa.
-12:15 – 13:30
-Wprowadzenie do metodyki Scrum. Poznałem role (Product Owner, Scrum Master, Development Team), artefakty (Product Backlog, Sprint Backlog, Increment) oraz wydarzenia Scrum (Sprint Planning, Daily Scrum, Sprint Review, Retrospective).
-13:30 – 15:00
-Samodzielnie uporządkowałem notatki z całego dnia, sporządziłem schemat projektu boi oraz przygotowałem pytania do opiekuna na kolejny dzień. Wykonałem krótkie ćwiczenie z terminologią angielską używaną w projekcie.
+8:00-8:30: Przygotowanie stanowiska zdalnego, szybka kontrola BHP i ergonomii.
+8:30-10:00: Wprowadzenie do firmy i struktury organizacyjnej.
+10:00-11:30: Omówienie projektu boi morskiej (pomiary fal, wiatru itp.).
+11:30-12:15: Przerwa obiadowa.
+12:15-15:00: Wprowadzenie do Scrum (role, artefakty, wydarzenia). Uporządkowanie notatek.
 
-Podsumowanie dnia: Pierwszy dzień poświęciłem na dokładne zrozumienie kontekstu firmy i projektu. Szczególną uwagę zwróciłem na prawidłową organizację pracy zdalnej i ergonomię stanowiska. Czuję się dobrze przygotowany do dalszych zadań.
+Podsumowanie dnia: Zapoznałem się z firmą i projektem, z naciskiem na organizację pracy.
 
 Dzień 2 – 03.03.2026 (wtorek)
 Godziny pracy: 8:00 – 15:00 (7 godzin)
 Przebieg dnia:
 
-8:00 – 8:45
-Ponownie przygotowałem stanowisko pracy zdalnej zgodnie z zasadami BHP i ergonomii. Sprawdziłem połączenie internetowe i ustawienia sprzętu.
-8:45 – 10:30
-Szczegółowe wprowadzenie do systemu kontroli wersji Git. Poznałem koncepcję VCS oraz podstawowe komendy: git init, git clone, git add, git commit, git push, git pull, git branch, git checkout, git merge. Zrozumiałem znaczenie pracy zespołowej z użyciem Git.
-10:30 – 11:30
-Wykonałem samodzielnie ćwiczenia praktyczne na lokalnym repozytorium testowym: stworzyłem repozytorium, dodałem pliki, wykonałem kilka commitów, przełączałem się między branchami oraz wykonałem merge.
-11:30 – 12:15
-Przerwa obiadowa.
-12:15 – 13:45
-Zapoznałem się z narzędziem Jira używanym w firmie do zarządzania projektami. Poznałem interfejs, typy zadań (Epic, Story, Task, Bug), statusy, boardy Scrum oraz sposób śledzenia postępu prac w projekcie.
-13:45 – 14:45
-Omówienie, w jaki sposób Git i Jira będą wykorzystywane przy realizacji projektu boi morskiej. Samodzielnie stworzyłem wstępny zarys możliwych zadań (user stories) związanych z pomiarami fal i wiatru.
-14:45 – 15:00
-Podsumowanie dnia, uporządkowanie notatek cyfrowych oraz przygotowanie środowiska programistycznego na kolejne dni praktyk.
+8:00-8:30: Przygotowanie stanowiska, kontrola BHP.
+8:30-11:30: Wprowadzenie do Git (komendy: init, clone, add, commit, push, pull, branch, checkout, merge). Ćwiczenia praktyczne.
+11:30-12:15: Przerwa obiadowa.
+12:15-15:00: Zapoznanie z Jira (interfejs, zadania, boardy). Integracja z projektem boi i Git. Uporządkowanie notatek.
 
-Podsumowanie dnia: Drugi dzień był bardzo intensywny pod względem narzędziowym. Solidne opanowanie podstaw Git i zrozumienie działania Jiry w środowisku Scrum to kluczowe umiejętności, które będę wykorzystywał przy projekcie boi. Pracowałem samodzielnie i z pełnym zaangażowaniem.
+Podsumowanie dnia: Opanowałem podstawy Git i Jira, kluczowe dla pracy zespołowej.
 
+Dzień 3 – 04.03.2026 (środa)
+Godziny pracy: 8:00 – 15:00 (7 godzin)
+Przebieg dnia:
+
+8:00-8:30: Przygotowanie stanowiska, BHP.
+8:30-11:30: Projekt klasy Vector w C++ (Vector.h: pola prywatne, publiczne metody; Vector.cpp: resize, konstruktor, destruktor).
+11:30-12:15: Przerwa obiadowa.
+12:15-15:00: Implementacja add_to_end. Testy w main.cpp. Utworzenie repo GitHub, pierwszy commit i push.
+
+Podsumowanie dnia: Zbudowałem podstawy klasy Vector z zarządzaniem pamięcią.
+
+Dzień 4 – 05.03.2026 (czwartek)
+Godziny pracy: 8:00 – 15:00 (7 godzin)
+Przebieg dnia:
+
+8:00-8:30: Przygotowanie stanowiska, BHP.
+8:30-11:30: Implementacja at (z wyjątkiem), size, print. Testy w main.cpp.
+11:30-12:15: Przerwa obiadowa.
+12:15-15:00: Implementacja remove. Debugowanie. Commit i push na GitHub. Dodanie opiekuna jako collaborator.
+
+Podsumowanie dnia: Rozszerzyłem funkcjonalność Vector o dostęp i modyfikację elementów.
+
+Dzień 5 – 06.03.2026 (piątek)
+Godziny pracy: 8:00 – 15:00 (7 godzin)
+Przebieg dnia:
+
+8:00-8:30: Przygotowanie stanowiska, BHP. Sprawdzenie GitHub.
+8:30-11:30: Refaktoring kodu, komentarze, rozszerzone testy (add_to_end z resize, remove na różnych pozycjach).
+11:30-12:15: Przerwa obiadowa.
+12:15-15:00: Dodanie README.md. Ostateczny commit i push. Podsumowanie tygodnia.
+
+Podsumowanie dnia: Finalizacja klasy Vector – kod przetestowany i udokumentowany.
