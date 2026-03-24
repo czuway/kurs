@@ -1,21 +1,18 @@
-#pragma
-#include "Sensor.h"
+#pragma once
 #include "Generator.h"
-#include <array>
+#include <vector>
 #include <mutex>
 
-class PressureSensor : public Sensor, public Generator
-{
-private:
-    std::array<uint8_t, 4> value;
-    std::mutex mtx;
-
+class PressureSensor : public Generator {
 public:
-        PressureSensor():
+    PressureSensor() = default;
+    ~PressureSensor() override = default;
 
-            void generate() override;
-            std::array<uint8_t, 4> readValue() override;
-            int getType() override;
+    void generate() override;
+    std::vector<unsigned char> readValue() override;
+    int getType() const override;
+
+private:
+    float pressure = 1013.25f; // domyœlne ciœnienie
+    mutable std::mutex mtx;
 };
-
-

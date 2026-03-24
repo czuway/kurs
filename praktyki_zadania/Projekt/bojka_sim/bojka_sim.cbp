@@ -11,9 +11,13 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
+				<Option parameters="127.0.0.1 8080 10" />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
+				<Linker>
+					<Add library="ws2_32" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/bojka_sim" prefix_auto="1" extension_auto="1" />
@@ -33,10 +37,18 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="Generator.h" />
+		<Unit filename="JSONGenerator.cpp" />
+		<Unit filename="JSONGenerator.h" />
+		<Unit filename="NetworkClient.cpp" />
+		<Unit filename="NetworkClient.h" />
+		<Unit filename="PressureSensor.cpp" />
+		<Unit filename="PressureSensor.h" />
 		<Unit filename="Sensor.h" />
 		<Unit filename="TemperatureSensor.cpp" />
 		<Unit filename="TemperatureSensor.h" />
 		<Unit filename="Utils.h" />
+		<Unit filename="WaveSensor.cpp" />
+		<Unit filename="WaveSensor.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

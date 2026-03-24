@@ -1,28 +1,26 @@
 #include "WaveSensor.h"
 #include "Utils.h"
-#include <cstdlib>
-
-WaveSensor::WaveSensor()
-{
-    value = {0, 0, 0, 0};
-}
+#include <random>
+#include <chrono>
 
 void WaveSensor::generate()
 {
     std::lock_guard<std::mutex> lock(mtx);
 
-    float wave = (rand() % 500) / 100.0f;
+    static std::default_random_engine eng(
+        std::chrono::system_clock::now().time_since_epoch().count());
+    static std::uniform_real_distribution<float> dist(0.0f, 3.0f);
 
-
-    value = floatToBytes(wave);
+    wave = dist(eng);
 }
 
-std::array<uint8_t, 4> WaveSensor::readValue()
+std::vector<unsigned char> WaveSensor::readValue()
 {
     std::lock_guard<std::mutex> lock(mtx);
-    return value;
+    return floatToBytes(wave);
 }
 
-int WaveSensor::getType()
+int WaveSensor::getType() const
 {
-    return 2;
+    return 2; // typ 2 = fale
+}

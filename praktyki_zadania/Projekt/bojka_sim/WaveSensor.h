@@ -1,18 +1,18 @@
-#pragma
-#include "Sensor.h"
+#pragma once
 #include "Generator.h"
-#include <array>
+#include <vector>
 #include <mutex>
 
-class WaveSensor : public Sensor, public Generator
-{
-private:
-    std::array<uint8_t, 4> value; // wartoœæ w bajtach
-    std::mutex mtx;
-
+class WaveSensor : public Generator {
 public:
-    WaveSensor():
-        void generate() override;
-        std::array<uint8_t, 4> readValue() override;
-        int getType() override;
+    WaveSensor() = default;
+    ~WaveSensor() override = default;
+
+    void generate() override;
+    std::vector<unsigned char> readValue() override;
+    int getType() const override;
+
+private:
+    float wave = 0.0f;
+    mutable std::mutex mtx;
 };

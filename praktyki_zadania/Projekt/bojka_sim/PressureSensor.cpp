@@ -1,35 +1,26 @@
-#include "PressureSensor.h
+#include "PressureSensor.h"
 #include "Utils.h"
-#include <cstdlib>
-
-PressureSensor::PressureSensor()
-{
-    value = {0, 0, 0, 0}; // 4 bajty = 0
-}
+#include <random>
+#include <chrono>
 
 void PressureSensor::generate()
 {
     std::lock_guard<std::mutex> lock(mtx);
-    // blokujemy mutex – żeby drugi wątek nie czytał w trakcie zapisu
 
-    float pressure = 980.0f + (rand() % 700) / 10.0f;
-    // losujemy wartość 980.0 – 1050.0
+    static std::default_random_engine eng(
+        std::chrono::system_clock::now().time_since_epoch().count());
+    static std::uniform_real_distribution<float> dist(980.0f, 1050.0f);
 
-    value = floatToBytes(pressure);
-    // zamieniamy float → 4 bajty (symulacja sprzętu)
+    pressure = dist(eng);
 }
 
-// Odczyt danych
-std::array<uint8_t, 4> PressureSensor::readValue()
+std::vector<unsigned char> PressureSensor::readValue()
 {
     std::lock_guard<std::mutex> lock(mtx);
-    // blokujemy mutex – żeby nie czytać w trakcie zapisu
-
-    return value; // zwracamy aktualną wartość
+    return floatToBytes(pressure);
 }
 
-// Typ sensora
-int PressureSensor::getType()
+int PressureSensor::getType() const
 {
-    return 3; // zgodnie z mapowaniem: 3 = pressure
+    return 3; // typ 3 = ciśnienie
 }

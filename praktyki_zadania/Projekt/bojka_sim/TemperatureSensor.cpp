@@ -1,30 +1,27 @@
 #include "TemperatureSensor.h"
-#include "Utils.h"
-#include <cstdlib>
+#include "Utils.h"  // floatToBytes / bytesToFloat
+#include <random>
+#include <chrono>
 
-// Konstruktor
-TemperatureSensor::TemperatureSensor()
-{
-    value = {0, 0, 0, 0};
-}
-
-// Generowanie danych
 void TemperatureSensor::generate()
 {
     std::lock_guard<std::mutex> lock(mtx);
-    float temp = 10.0f + (rand() % 150) / 10.0f;
-    value = floatToBytes(temp); // poprawna nazwa
+
+    // generowanie losowej temperatury 20-30 stopni
+    static std::default_random_engine eng(
+        std::chrono::system_clock::now().time_since_epoch().count());
+    static std::uniform_real_distribution<float> dist(20.0f, 30.0f);
+
+    temp = dist(eng);
 }
 
-// Odczyt danych
-std::array<uint8_t, 4> TemperatureSensor::readValue()
+std::vector<unsigned char> TemperatureSensor::readValue()
 {
     std::lock_guard<std::mutex> lock(mtx);
-    return value;
+    return floatToBytes(temp);
 }
 
-// Typ sensora
-int TemperatureSensor::getType()
+int TemperatureSensor::getType() const
 {
-    return 4;
+    return 1; // typ 1 = temperatura
 }

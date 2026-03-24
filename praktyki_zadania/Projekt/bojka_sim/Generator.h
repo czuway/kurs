@@ -1,11 +1,16 @@
 #pragma once
+#include <vector>
 
-//to jest interfejs odpowiedzialny za generowanie danych
-class Generator
-{
+class Generator {
 public:
-    //a to nasza funckja ktora generuje nowe dane
+    virtual ~Generator() = default;
+
+    // metoda czysto wirtualna do generowania danych
     virtual void generate() = 0;
 
-    virtual ~Generator() = default;
+    // metoda czysto wirtualna do odczytu wartoœci jako bajty
+    virtual std::vector<unsigned char> readValue() = 0;
+
+    // metoda do pobrania typu sensora
+    virtual int getType() const = 0;
 };

@@ -1,17 +1,17 @@
 #pragma once
-#include <array>
+#include <vector>
 #include <cstring>
 
-inline std::array<uint8_t, 4> floatToBytes(float value)
+inline std::vector<unsigned char> floatToBytes(float value)
 {
-    std::array<uint8_t, 4> data;
-    std::memcpy(data.data(), &value, sizeof(float));
-    return data;
+    std::vector<unsigned char> bytes(sizeof(float));
+    std::memcpy(bytes.data(), &value, sizeof(float));
+    return bytes;
 }
 
-inline float bytesToFloat(const std::array<uint8_t, 4>& data)
+inline float bytesToFloat(const std::vector<unsigned char>& bytes)
 {
     float value;
-    std::memcpy(&value, data.data(), sizeof(float));
+    std::memcpy(&value, bytes.data(), sizeof(float));
     return value;
 }

@@ -1,31 +1,81 @@
 # depslib dependency file v1.0
-1773755326 source:c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\main.cpp
+1774273787 source:c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\main.cpp
 	<iostream>
 	<vector>
 	<thread>
 	<memory>
 	<chrono>
+	"NetworkClient.h"
 	"TemperatureSensor.h"
+	"WaveSensor.h"
+	"PressureSensor.h"
+	"JSONGenerator.h"
 	"Utils.h"
 
-1773754996 c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\temperaturesensor.h
-	"Sensor.h"
+1774273879 c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\temperaturesensor.h
 	"Generator.h"
-	<array>
+	<vector>
 	<mutex>
 
-1773752317 c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\sensor.h
-	<array>
-	<cstdint>
+1774271533 c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\sensor.h
+	<vector>
 
-1773752318 c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\generator.h
+1774273519 c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\generator.h
+	<vector>
 
-1773755213 c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\utils.h
-	<array>
+1774273592 c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\utils.h
+	<vector>
 	<cstring>
 
-1773754961 source:c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\temperaturesensor.cpp
+1774273548 source:c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\temperaturesensor.cpp
 	"TemperatureSensor.h"
 	"Utils.h"
-	<cstdlib>
+	<random>
+	<chrono>
+
+1774273581 source:c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\wavesensor.cpp
+	"WaveSensor.h"
+	"Utils.h"
+	<random>
+	<chrono>
+
+1774273569 c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\wavesensor.h
+	"Generator.h"
+	<vector>
+	<mutex>
+
+1774273750 source:c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\pressuresensor.cpp
+	"PressureSensor.h"
+	"Utils.h"
+	<random>
+	<chrono>
+
+1774273739 c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\pressuresensor.h
+	"Generator.h"
+	<vector>
+	<mutex>
+
+1774273865 source:c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\networkclient.cpp
+	"NetworkClient.h"
+	<iostream>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<thread>
+	<chrono>
+
+1774273796 c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\networkclient.h
+	<string>
+	<winsock2.h>
+
+1774274078 source:c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\jsongenerator.cpp
+	"JSONGenerator.h"
+	"Utils.h"
+	<sstream>
+	<iomanip>
+
+1774274088 c:\users\aczul\onedrive\dokumenty\praktyki\praktyki_zadania\projekt\bojka_sim\jsongenerator.h
+	<string>
+	<vector>
+	<memory>
+	"Generator.h"
 
