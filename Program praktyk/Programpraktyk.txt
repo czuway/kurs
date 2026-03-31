@@ -1,58 +1,167 @@
 DZIENNIK PRAKTYK ZAWODOWYCH
 Technik Programista – Klasa III
-Rok szkolny 2026
+Rok szkolny 2025/2026
+Tydzień 1 – 2–6 marca 2026
 Dzień 1 – 02.03.2026 (poniedziałek)
-Godziny pracy: 8:00 – 15:00 (7 godzin)
+Godziny pracy: 8:00 – 15:00
 Przebieg dnia:
 
-8:00-8:30: Przygotowanie stanowiska zdalnego, szybka kontrola BHP i ergonomii.
-8:30-10:00: Wprowadzenie do firmy i struktury organizacyjnej.
-10:00-11:30: Omówienie projektu boi morskiej (pomiary fal, wiatru itp.).
-11:30-12:15: Przerwa obiadowa.
-12:15-15:00: Wprowadzenie do Scrum (role, artefakty, wydarzenia). Uporządkowanie notatek.
+8:00–11:30: Wprowadzenie do firmy, struktury organizacyjnej i omówienie projektu boi morskiej (pomiary fal, wiatru itp.).
+11:30–15:00: Wprowadzenie do metodyki Scrum (role, artefakty, wydarzenia), uporządkowanie notatek.
 
-Podsumowanie dnia: Zapoznałem się z firmą i projektem, z naciskiem na organizację pracy.
-
+Podsumowanie dnia: Zapoznałem się z firmą i projektem.
 Dzień 2 – 03.03.2026 (wtorek)
-Godziny pracy: 8:00 – 15:00 (7 godzin)
+Godziny pracy: 8:00 – 15:00
 Przebieg dnia:
 
-8:00-8:30: Przygotowanie stanowiska, kontrola BHP.
-8:30-11:30: Wprowadzenie do Git (komendy: init, clone, add, commit, push, pull, branch, checkout, merge). Ćwiczenia praktyczne.
-11:30-12:15: Przerwa obiadowa.
-12:15-15:00: Zapoznanie z Jira (interfejs, zadania, boardy). Integracja z projektem boi i Git. Uporządkowanie notatek.
+8:00–11:30: Wprowadzenie do Git (init, clone, commit, push, pull, branch, checkout, merge) + ćwiczenia praktyczne.
+11:30–15:00: Zapoznanie z Jira (zadania, boardy, statusy), integracja z projektem boi i Git.
 
-Podsumowanie dnia: Opanowałem podstawy Git i Jira, kluczowe dla pracy zespołowej.
-
+Podsumowanie dnia: Opanowałem podstawy Git i Jira.
 Dzień 3 – 04.03.2026 (środa)
-Godziny pracy: 8:00 – 15:00 (7 godzin)
+Godziny pracy: 8:00 – 15:00
 Przebieg dnia:
 
-8:00-8:30: Przygotowanie stanowiska, BHP.
-8:30-11:30: Projekt klasy Vector w C++ (Vector.h: pola prywatne, publiczne metody; Vector.cpp: resize, konstruktor, destruktor).
-11:30-12:15: Przerwa obiadowa.
-12:15-15:00: Implementacja add_to_end. Testy w main.cpp. Utworzenie repo GitHub, pierwszy commit i push.
+8:00–11:30: Projekt klasy Vector (Vector.h + Vector.cpp): pola prywatne, konstruktor (domyślny 4), destruktor, resize(), add_to_end().
+11:30–15:00: Testy add_to_end w main.cpp, pierwszy commit i push na GitHub.
 
-Podsumowanie dnia: Zbudowałem podstawy klasy Vector z zarządzaniem pamięcią.
-
+Podsumowanie dnia: Zbudowałem podstawy Vector z zarządzaniem pamięcią.
 Dzień 4 – 05.03.2026 (czwartek)
-Godziny pracy: 8:00 – 15:00 (7 godzin)
+Godziny pracy: 8:00 – 15:00
 Przebieg dnia:
 
-8:00-8:30: Przygotowanie stanowiska, BHP.
-8:30-11:30: Implementacja at (z wyjątkiem), size, print. Testy w main.cpp.
-11:30-12:15: Przerwa obiadowa.
-12:15-15:00: Implementacja remove. Debugowanie. Commit i push na GitHub. Dodanie opiekuna jako collaborator.
+8:00–11:30: Implementacja metod at() (z wyjątkiem out_of_range), size(), print() i remove().
+11:30–15:00: Testy w main.cpp (add, remove, at=), commit + push, dodanie opiekuna jako collaborator.
 
-Podsumowanie dnia: Rozszerzyłem funkcjonalność Vector o dostęp i modyfikację elementów.
-
+Podsumowanie dnia: Rozszerzyłem Vector o dostęp i modyfikację elementów.
 Dzień 5 – 06.03.2026 (piątek)
-Godziny pracy: 8:00 – 15:00 (7 godzin)
+Godziny pracy: 8:00 – 15:00
 Przebieg dnia:
 
-8:00-8:30: Przygotowanie stanowiska, BHP. Sprawdzenie GitHub.
-8:30-11:30: Refaktoring kodu, komentarze, rozszerzone testy (add_to_end z resize, remove na różnych pozycjach).
-11:30-12:15: Przerwa obiadowa.
-12:15-15:00: Dodanie README.md. Ostateczny commit i push. Podsumowanie tygodnia.
+8:00–11:30: Refaktoring kodu, komentarze, rozszerzone testy (resize przy add_to_end, remove na różnych pozycjach).
+11:30–15:00: Dodanie README.md, ostateczny commit całego Vector, podsumowanie tygodnia.
 
-Podsumowanie dnia: Finalizacja klasy Vector – kod przetestowany i udokumentowany.
+Podsumowanie dnia: Zakończyłem i udokumentowałem klasę Vector.
+Tydzień 2 – 9–13 marca 2026
+Dzień 6 – 09.03.2026 (poniedziałek)
+Godziny pracy: 8:00 – 15:00
+Przebieg dnia:
+
+8:00–11:30: Ćwiczenia z listą połączoną (linked list) – implementacja węzłów, dodawanie/usuwanie/przechodzenie.
+11:30–15:00: Wprowadzenie do stosu na bazie linked list + początek klasy Stack (metoda push).
+
+Podsumowanie dnia: Opanowałem linked list i zacząłem stos.
+Dzień 7 – 10.03.2026 (wtorek)
+Godziny pracy: 8:00 – 15:00
+Przebieg dnia:
+
+8:00–11:30: Dokończenie klasy Stack – metody push, pull (pop), peek, print.
+11:30–15:00: Samodzielne testowanie wszystkich metod, poprawki błędów, commit + push.
+
+Podsumowanie dnia: Zaimplementowałem i przetestowałem pełny stos.
+Dzień 8 – 11.03.2026 (środa)
+Godziny pracy: 8:00 – 15:00
+Przebieg dnia:
+
+8:00–11:30: Implementacja algorytmów sortowania: bubble sort, insertion sort, quick sort (osobne funkcje).
+11:30–15:00: Generowanie tablic (100 / 10 000 / 100 000 elementów), pomiar czasu wykonania dla każdego algorytmu.
+
+Podsumowanie dnia: Zaimplementowałem sortowania i zacząłem pomiary wydajności.
+Dzień 9 – 12.03.2026 (czwartek)
+Godziny pracy: 8:00 – 15:00
+Przebieg dnia:
+
+8:00–11:30: Kontynuacja pomiarów czasu na dużych tablicach + analiza wyników.
+11:30–15:00: Zapoznanie i implementacja wzorców projektowych (Singleton, Factory, Observer).
+
+Podsumowanie dnia: Porównałem wydajność i wdrożyłem wzorce projektowe.
+Dzień 10 – 13.03.2026 (piątek)
+Godziny pracy: 8:00 – 15:00
+Przebieg dnia:
+
+8:00–11:30: Implementacja testów jednostkowych dla klasy Vector (użyłem frameworka do testów).
+11:30–15:00: Uruchomienie wszystkich testów Vector + finalne pomiary sortowań, commit całego tygodnia.
+
+Podsumowanie dnia: Przetestowałem Vector i zakończyłem blok algorytmów + wzorców.
+Tydzień 3 – 16–20 marca 2026
+Dzień 11 – 16.03.2026 (poniedziałek)
+Godziny pracy: 8:00 – 15:00
+Przebieg dnia:
+
+8:00–11:30: Zapoznanie się z założeniami projektu IoT oraz przygotowanie środowiska w Code::Blocks.
+11:30–15:00: Rozpoczęcie implementacji backendu w C++ – stworzenie podstaw struktury programu do obsługi danych z czujników.
+
+Podsumowanie dnia: Przygotowałem środowisko i zacząłem backend projektu IoT.
+Dzień 12 – 17.03.2026 (wtorek)
+Godziny pracy: 8:00 – 15:00
+Przebieg dnia:
+
+8:00–11:30: Implementacja obsługi danych czujników (temperatura, ciśnienie, fale).
+11:30–15:00: Tworzenie struktur danych oraz logiki przetwarzania i aktualizacji wartości.
+
+Podsumowanie dnia: Zaimplementowałem przetwarzanie danych z czujników.
+Dzień 13 – 18.03.2026 (środa)
+Godziny pracy: 8:00 – 15:00
+Przebieg dnia:
+
+8:00–11:30: Implementacja komunikacji sieciowej w C++ (sockety).
+11:30–15:00: Testowanie przesyłania danych pomiędzy komponentami systemu.
+
+Podsumowanie dnia: Dodałem komunikację sieciową i przetestowałem przesyłanie danych.
+Dzień 14 – 19.03.2026 (czwartek)
+Godziny pracy: 8:00 – 15:00
+Przebieg dnia:
+
+8:00–11:30: Rozbudowa backendu o kolejne dane oraz stabilizację komunikacji sieciowej.
+11:30–15:00: Testowanie poprawności przesyłanych danych i eliminacja błędów.
+
+Podsumowanie dnia: Rozbudowałem i ustabilizowałem backend.
+Dzień 15 – 20.03.2026 (piątek)
+Godziny pracy: 8:00 – 15:00
+Przebieg dnia:
+
+8:00–11:30: Finalizacja backendu C++ – poprawki, optymalizacja działania programu.
+11:30–15:00: Testy końcowe przesyłania danych z czujników.
+
+Podsumowanie dnia: Zakończyłem i przetestowałem cały backend projektu.
+Tydzień 4 – 23–27 marca 2026
+Dzień 16 – 23.03.2026 (poniedziałek)
+Godziny pracy: 8:00 – 15:00
+Przebieg dnia:
+
+8:00–11:30: Rozpoczęcie prac nad frontendem – próba stworzenia aplikacji w React (create-react-app).
+11:30–15:00: Konfiguracja środowiska Node.js i npm oraz pierwsze problemy z instalacją zależności.
+
+Podsumowanie dnia: Rozpocząłem frontend w React i skonfigurowałem środowisko.
+Dzień 17 – 24.03.2026 (wtorek)
+Godziny pracy: 8:00 – 15:00
+Przebieg dnia:
+
+8:00–11:30: Dalsze próby uruchomienia projektu React oraz analiza błędów npm.
+11:30–15:00: Testowanie różnych konfiguracji i wersji create-react-app.
+
+Podsumowanie dnia: Analizowałem i rozwiązywałem problemy z React.
+Dzień 18 – 25.03.2026 (środa)
+Godziny pracy: 8:00 – 15:00
+Przebieg dnia:
+
+8:00–11:30: Kontynuacja pracy z React – próby naprawy środowiska oraz debugowanie błędów.
+11:30–15:00: Podjęcie decyzji o zmianie frontendu na HTML, CSS i JavaScript.
+
+Podsumowanie dnia: Zdecydowałem o zmianie na czysty HTML/CSS/JS.
+Dzień 19 – 26.03.2026 (czwartek)
+Godziny pracy: 8:00 – 15:00
+Przebieg dnia:
+
+8:00–11:30: Utworzenie dashboardu w HTML, CSS i JavaScript – layout oraz stylowanie.
+11:30–15:00: Integracja wykresów (Chart.js) oraz przygotowanie logiki do wyświetlania danych.
+
+Podsumowanie dnia: Stworzyłem dashboard z wykresami.
+Dzień 20 – 27.03.2026 (piątek)
+Godziny pracy: 8:00 – 15:00
+Przebieg dnia:
+
+8:00–11:30: Połączenie dashboardu z backendem oraz testowanie przesyłania danych.
+11:30–15:00: Finalne poprawki, testy działania całego systemu oraz zakończenie projektu.
+
+Podsumowanie dnia: Zakończyłem integrację i przetestowałem cały system IoT.
